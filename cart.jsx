@@ -4,8 +4,6 @@ const products = [
 	{ name: 'Oranges ', country: 'Spain', cost: 4, instock: 3 },
 	{ name: 'Beans ', country: 'USA', cost: 2, instock: 5 },
 	{ name: 'Cabbage ', country: 'USA', cost: 1, instock: 8 },
-	{ name: 'Nuts ', country: 'USA', cost: 5, instock: 10 },
-	{ name: 'Strawberry ', country: 'USA', cost: 2, instock: 20 },
 ];
 // =========Cart=============
 const Cart = (props) => {
@@ -122,8 +120,6 @@ const Products = (props) => {
 		'orange.png',
 		'beans.png',
 		'cabbage.png',
-		'nuts.png',
-		'strawberry-2.png',
 	];
 
 	let list = items.map((item, index) => {
